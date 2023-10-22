@@ -45,6 +45,11 @@ h1, p{
     align-items: center;
 }
 
+.header-links{
+    display: flex;
+    gap: 30px;
+}
+
 .header-item-first{
     color: #F25822;
     text-decoration: none;
@@ -65,10 +70,27 @@ h1, p{
     line-height: normal;
 }
 
+.header-features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.header-icon{
+    width: 6px;
+    height: 3px;
+    flex-shrink: 0;
+    color: #000;
+}
+
 .intro{
     display: flex;
     justify-content: space-between;
+    gap: 41px;
     width: 1146px;
+    margin-top: 96px;
+    align-items: center;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 162px;   
@@ -81,7 +103,6 @@ h1, p{
     font-weight: 400;
     line-height: normal;
     margin-bottom: 17px;
-    margin-top: 89px;
     width: 522px;
 }
 
