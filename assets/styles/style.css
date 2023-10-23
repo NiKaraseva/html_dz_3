@@ -35,12 +35,15 @@ h1, p{
     margin: 0;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
+.container{
     width: 1146px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
     margin-top: 40px;
     align-items: center;
 }
@@ -88,11 +91,8 @@ h1, p{
     display: flex;
     justify-content: space-between;
     gap: 41px;
-    width: 1146px;
     margin-top: 96px;
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 162px;   
 }
 
@@ -153,5 +153,49 @@ h1, p{
     margin-left: auto;
 }
 
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+    gap: 30px;
+}
 
+.advantage-item{
+    padding-top: 35px;
+    padding-right: 31px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+.advantage-title{
+    margin-top: 25px;
+    margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.advantage-text{
+    margin-bottom: 25px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 310px;
+    flex-shrink: 0;
+}
+
+.advantage-link{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+}
 
