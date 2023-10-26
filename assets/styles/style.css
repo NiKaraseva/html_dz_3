@@ -31,12 +31,18 @@ body{
     background-color: #FFF;
 }
 
-h1, p{
+h1, h3, p{
     margin: 0;
 }
 
 .container{
     width: 1146px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-2{
+    width: 1203px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -122,13 +128,17 @@ h1, p{
     align-items: center;
 }
 
-.intro-button{
+.button{
     width: 140px;
     height: 50px;
     flex-shrink: 0;
     border-radius: 50px;
     background-color: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+}
+
+.intro-button{
     color: #FFF;
     font-family: Gilroy-Bold;
     font-size: 15px;
@@ -153,13 +163,21 @@ h1, p{
     margin-left: auto;
 }
 
-.advantages{
+.advantages-flex{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
     align-items: center;
     gap: 30px;
+}
+
+.advantages-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .advantage-item{
@@ -199,3 +217,81 @@ h1, p{
     text-decoration: none;
 }
 
+.why-you-should-choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-you-should-title{
+    margin-top: 92px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.why-you-should-text{
+    width: 682px;
+    margin-top: 19px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.choose-us{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 54px;
+    margin-bottom: 100px;
+}
+
+.choose-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-content{
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.choose-title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.choose-text{
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 310px;   
+    flex-shrink: 0;
+    margin-top: 22px;
+}
+
+.choose-button{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    margin-top: 39px;
+}
